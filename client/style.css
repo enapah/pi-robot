@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    font-family: Arial, serif;
+    background-color: #8ca19f;
+}
+
+body {
+    margin: 10px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+ul li {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+ul#flex-container {
+    flex-direction: column;
+}
+
+ul.header {
+    height: 25px;
+    text-align: center;
+    flex-direction: row;
+}
+
+ul.header li {
+    cursor: default;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+ul.header li + li {
+    border-left: 1px hidden;
+}
+
+ul.header li.current {
+    background-color: darkgrey;
+}
+
+ul.header li:first-child {
+    padding-left: 10px;
+    flex-grow: 2;
+}
+
+ul.part-row {
+    height: 50px;
+    text-align: left;
+    flex-direction: row;
+}
+
+ul.tone-row {
+    height: 20px;
+    text-align: left;
+    flex-direction: row;
+}
+
+ul.tone-row li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+ul.tone-row li:first-child {
+    flex-grow: 2;
+    padding-left: 10px;
+}
+
+ul.part-row li {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+ul.part-row li.active {
+    opacity: 0.1;
+}
+
+ul.part-row li + li {
+    cursor: pointer;
+    border-left: 1px solid #8ca19f;
+    opacity: 0.9;
+}
+
+ul.part-row li + li:hover {
+    opacity: 0.5;
+}
+
+ul.part-row li:first-child {
+    cursor: default;
+    flex-grow: 2;
+    padding-left: 10px;
+    opacity: 0.9;
+}

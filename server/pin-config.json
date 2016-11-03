@@ -1,0 +1,37 @@
+[
+  {
+    "part": "Head",
+    "color": "red",
+    "pin": 5
+  },
+  {
+    "part": "Eyes",
+    "color": "blue",
+    "pin": 6
+  },
+  {
+    "part": "Eyes",
+    "color": "yellow",
+    "pin": 4
+  },
+  {
+    "part": "Eyes",
+    "color": "green",
+    "pin": 3
+  },
+  {
+    "part": "Eyes",
+    "color": "red",
+    "pin": 8
+  },
+  {
+    "part": "Chest",
+    "color": "blue",
+    "pin": 2
+  },
+  {
+    "part": "Gun",
+    "color": "red",
+    "pin": 7
+  }
+]
